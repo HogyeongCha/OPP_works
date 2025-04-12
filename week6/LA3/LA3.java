@@ -8,7 +8,7 @@ public class LA3 {
         String name = s.nextLine();
         String id = s.nextLine();
         String email = s.nextLine();
-// 엘리스가 매니저, 밥이 개발자, 찰리가 인턴
+
         Manager manager = new Manager("001", name, email);
         manager.work();
         manager.manageTeam();

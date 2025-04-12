@@ -22,17 +22,6 @@ public class Intern implements Employee{
         System.out.println(name + " is working as an intern for " + m + " months.");
     }
 
-    @Override
-    public void manageTeam() {
-
-    }
-
-    @Override
-    public void writeCode() {
-
-    }
-
-    @Override
     public void extendInternship(int m_ext) {
         int ext =  m_ext + this.m;
         System.out.println(name + "'s internship has been extended to " + ext + " months.");

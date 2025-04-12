@@ -20,19 +20,7 @@ public class Manager implements Employee {
         System.out.println(name + " is managing.");
     }
 
-    @Override
     public void manageTeam() {
         System.out.println(name + " is managing the team.");
     }
-
-    @Override
-    public void writeCode() {
-
-    }
-
-    @Override
-    public void extendInternship(int i) {
-
-    }
-
 }

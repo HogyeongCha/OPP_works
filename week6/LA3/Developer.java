@@ -22,18 +22,7 @@ public class Developer implements Employee {
         System.out.println(name + " is coding in " + language);
     }
 
-    @Override
-    public void manageTeam() {
-
-    }
-
-    @Override
     public void writeCode() {
         System.out.println(name + " is writing code.");
-    }
-
-    @Override
-    public void extendInternship(int i) {
-
     }
 }
